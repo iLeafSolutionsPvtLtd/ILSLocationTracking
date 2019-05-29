@@ -92,7 +92,7 @@ List decodePoly(String poly) {
 }
 
 Future<LatLng> getLocationFromPlaces(String query, BuildContext context) async {
-  String gMapAPI = "AIzaSyDqctTC3ocytij8dgYdA9MG_W9EjkgurU4";
+  String gMapAPI = "";
   Prediction p = await showGooglePlacesAutocomplete(
       context: context,
       apiKey: gMapAPI,
